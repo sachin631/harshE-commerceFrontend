@@ -1,0 +1,15 @@
+.animateSlider {
+    animation-name: move-left;
+    animation-duration: 2s;
+    /* animation-iteration-count:; */
+    animation-direction: alternate;
+  }
+  
+  @keyframes move-left {
+    from {
+      transform: translateX(-100px);
+    }
+    to {
+      transform: translateX(8px);
+    }
+  }
